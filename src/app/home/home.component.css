@@ -1,0 +1,10 @@
+
+
+.custombg-color{background-color: #F8F8F8;}
+
+.accordion-button:not(.collapsed){background-color: transparent; color: #000000;}
+
+/*.forword-icon::after{background-image: url("../../assets/Landing-page/forword_icon.png") no-repeat scroll 0 0 transparent; display: block; width: 23px;  height: 24px;}*/
+
+.forword-icon{text-decoration: none;}
+

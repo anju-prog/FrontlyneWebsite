@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@font-face {
+    font-family: Lora-Regular;
+    src: url(assets/fonts/Lora-Regular.ttf);
+}
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url(assets/fonts/Poppins-Regular.ttf);
+}
+
+body{ padding-top: 40px; background-color: #F8F8F8; font-family: Poppins-Regular; }
+
+.lora{font-family: Lora-Regular;}
+/*.poppins{font-family: Poppins-Regular;}*/
+
+/*body .heading-size{font-size: 2.25rem;}
+body .subheading-size{font-size: 1.5rem;}*/
+.blue-btn{background: #595AD4;}
+.radius-shape{border-radius: 8px;}
+
+@media (max-width: 768px){
+    body{display: flex;}
+}
