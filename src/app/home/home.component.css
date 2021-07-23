@@ -1,10 +1,17 @@
 
-
-.custombg-color{background-color: #F8F8F8;}
-
+.left-radius{border-radius: 0px 5px 0px 0px;}
 .accordion-button:not(.collapsed){background-color: transparent; color: #000000;}
 
-/*.forword-icon::after{background-image: url("../../assets/Landing-page/forword_icon.png") no-repeat scroll 0 0 transparent; display: block; width: 23px;  height: 24px;}*/
+/*.quotes-img::before{content: ''; background: url("../images/Landing-page/quote-1.png") no-repeat scroll 0px 0px transparent; width: 27px; height: 24px; display: inline-block;}*/
 
+.forword-icon{text-decoration: none; }
 
+.points-1{margin-right: 80px;}
 
+.points-2{margin-right: 60px;}
+
+.points-3{margin-right: 40px;}
+
+.points-4{margin-right: 20px;}
+
+.points-5{margin-right: 10px;}
