@@ -17,29 +17,6 @@
     line-height: 36px;
     padding: 20px 200px;
 }
-
-.starimg{
-    left: 0;
-    top: -10px;
-}
-.yellowpatch1{
-    right: 80px;
-}
-
-.circleimg{
-    right: 0;
-    top: -20px;
-}
-.yellowpatch2{
-    bottom: 0px;
-    left: 130px;
-}
-
-.triangleimg{
-    bottom: 25px;
-    right: 335px;
-}
-
 .p-text{
     font-style: normal;
     font-weight: 500;
@@ -66,9 +43,7 @@
     font-size: 0.87rem;
     line-height: 21px;
 }
-.bg-color{
-    background: #AC395A;
-}
+
 .l-text2{
     font-style: normal;
     font-weight: bold;
@@ -89,9 +64,7 @@
     top: -48px;
     left: -100px;
 }
-.bg-color2{
-    background: #AC5D39;
-}
+
 .l_headingText{
     font-style: normal;
     font-weight: bold;
@@ -110,12 +83,47 @@
 .box-padding{
     padding: 80px 110px 80px 190px;
 }
-.bg-color3{
-    background: #F7D216;
+
+
+.tab-title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #333333;
 }
-.l-text4{
+.subtitle{
     font-style: normal;
     font-weight: bold;
-    font-size: 32px;
-    line-height: 41px;
+    font-size: 15px;
+    line-height: 22px;
+    color: #BDBDBD;
+}
+.tab-text{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 22px;
+    color: #4F4F4F;
+}
+.toptext{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 51px;
+    color: #000000;
+}
+.r-text1{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 45px;
+    color: #333333;
+}
+.yelloComma{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 45px;
+    color: #F2994A;
 }
