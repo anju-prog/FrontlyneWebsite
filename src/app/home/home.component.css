@@ -1,8 +1,11 @@
 
 .left-radius{border-radius: 0px 5px 0px 0px;}
+.accordion-button{color: #323338;}
 .accordion-button:not(.collapsed){background-color: transparent; color: #000000;}
 
-/*.quotes-img::before{content: ''; background: url("../images/Landing-page/quote-1.png") no-repeat scroll 0px 0px transparent; width: 27px; height: 24px; display: inline-block;}*/
+.customshadow{box-shadow: 5px 5px 0 0 #851c39;}
+
+/*.quotes-img::before{content: ''; background-image: url("../images/Landing-page/quote-1.png");  position: absolute;}*/
 
 .forword-icon{text-decoration: none; }
 
@@ -15,3 +18,5 @@
 .points-4{margin-right: 20px;}
 
 .points-5{margin-right: 10px;}
+
+.custom-block{width: 846px; margin: 130px auto; }

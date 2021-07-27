@@ -18,7 +18,11 @@ body{ padding-top: 40px; background-color: #F8F8F8; font-family: Poppins-Regular
 
 .bg-red{background: #AC395A;}
 
+.bg-lightred{background: #E0A4C3;}
+
 .bg-brown{background: #AC5D39; }
+
+.bg-lightbrown{background: #d5ae9c;}
 
 .bg-yellow{background: #F7D216;}
 
@@ -40,8 +44,8 @@ body{ padding-top: 40px; background-color: #F8F8F8; font-family: Poppins-Regular
 
 .small-size{font-size: 0.875rem;}
 
-.forword-icon{text-decoration: none;}
-
+.no-underline{text-decoration: none;}
+.custom_border-radius{border-radius: 10px;}
 
 
 .l-text4{font-style: normal; font-weight: bold; font-size: 32px; line-height: 41px;}
@@ -66,6 +70,43 @@ body{ padding-top: 40px; background-color: #F8F8F8; font-family: Poppins-Regular
     right: 335px;
 }
 
+.sf_Title-text{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 41px;
+}
+.sf_subTitle-text{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.blog_img1{
+    background-image: url("../src/assets/images/Features/artical_title.png"); 
+    width: 413px;
+    height: 442px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.quotes-img{background-image: url("../src/assets/images/global/quote-1.png"); height: 27px; width: 27px; display: inline-block; vertical-align: middle; background-repeat: no-repeat;} 
+
+.quotes-img2{background-image: url("../src/assets/images/global/quote-2.png"); height: 27px; width: 27px; display: inline-block; vertical-align: middle; background-repeat: no-repeat; margin-left: 5px;} 
+
+.bullet-point{background-image: url("../src/assets/images/global/bullet-point.png"); height: 15px; width: 15px; display: inline-block; vertical-align: middle;} 
+
+.forword-icon{background-image: url("../src/assets/images/global/forwordIcon.png"); height: 12px; width: 15px; display: inline-block; vertical-align: middle;} 
+.blue_forword-icon{background-image: url("../src/assets/images/global/blue_forwaricon.png"); height: 12px; width: 15px; display: inline-block; vertical-align: middle;} 
+.blue_arrow{background-image: url("../src/assets/images/global/blue_arrow.png"); height: 19px; width: 10px; display: inline-block; vertical-align: middle;} 
+.titleimg{background-image: url("../src/assets/images/Features/artical_title.png"); background-size: cover; height: 100%; display: block;} 
+
+.border-middle{
+    width: 100%;
+    height: 1px;
+    background: #1E1E1E;
+}
 
 @media (max-width: 768px){
     body{display: flex;}
