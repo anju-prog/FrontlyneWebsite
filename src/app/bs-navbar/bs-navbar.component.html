@@ -1,12 +1,12 @@
 
-<div class="container-fluid" style="height: 30px; text-align: right; position: fixed; top: 0px; background-color: #f8f9fa !important; padding: 0px 40px;">
-    <a class="topnav" routerLink="#">About us</a>
-    <a class="topnav" routerLink="#">Contact us</a>
+<div class="container-fluid fixed-top bg-light pt-1">
+    <a class="topnav text-dark no-underline mr-3" routerLink="#">About us</a>
+    <a class="topnav text-dark no-underline" routerLink="#">Contact us</a>
 </div>
 
-<nav class="navbar navbar-inverse navbar-expand-md navbar-light fixed-top bg-light container-fluid" data-spy="affix" data-offset-top="197">
+<nav class="navbar navbar-inverse navbar-expand-md navbar-light fixed-top bg-light container-fluid " data-spy="affix" data-offset-top="197">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">LOGO</a>
+        <a class="navbar-brand logoicon" href="#"></a>
         <button class="navbar-toggler" type="button" (click)="toggleNavbar()">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -28,9 +28,9 @@
                     <a class="nav-link" routerLink="/pricing">Pricing</a>
                 </li>
             </ul>
-            <form class="d-flex">
-                <button class="btn btn-outline-success" type="submit">Talk to us</button>
-                <button class="btn btn-outline-success trybtn" type="submit">TRY FOR FREE</button>
+            <form class="d-flex pr-3">
+                <button class="btn btn-light btn-border font-black small-size radius-shape mr-3" type="submit">TALK TO US</button>
+                <button class="btn text-white blue-btn small-size trybtn radius-shape" type="submit">TRY A DEMO</button>
             </form>
         </div>
     </div>
